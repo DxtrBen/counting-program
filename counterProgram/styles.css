@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #181818;
+}
+#countDisplay{
+    display: block;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin: 100px;
+    
+}
+.parameter-container{
+    text-align: center;
+    margin-top: 0px;
+}
+.parameter-container button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #181818;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.parameter-container button:hover{
+    text-shadow: 0 0 7px white;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
